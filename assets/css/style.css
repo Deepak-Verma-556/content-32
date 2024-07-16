@@ -51,14 +51,14 @@ section {
     margin-right: -12px;
 }
 
-.col-7 {
-    width: 58.33%;
+.col-8 {
+    width: 66.66%;
     padding-left: 12px;
     padding-right: 12px;
 }
 
-.col-5 {
-    width: 41.66%;
+.col-3 {
+    width: 25%;
     padding-left: 12px;
     padding-right: 12px;
 }
@@ -87,6 +87,7 @@ h1 {
     line-height: 26px;
     letter-spacing: 2px;
     text-align: left;
+    font-weight: bolder;
     color: rgba(21, 20, 57, 0.4);
 
 }
@@ -109,10 +110,10 @@ table {
 
 
 .card {
-    width: 270px;
     background: rgba(235, 234, 237, 1);
     padding: 20px;
     margin-top: 50px;
+    border-radius: 10px;
 }
 
 h2 {
@@ -154,23 +155,29 @@ button {
 }
 
 
-td {
+tr {
     border-bottom: 2px solid rgba(235, 234, 237, 1);
+    
+}
+td{
     padding: 20px;
-    text-align: center;
+     text-align: center;
+}
+.border-bottom-none{
+    border-bottom: none;
 }
 
-@media (min-width:576px) {
-    .col-sm-5 {
-        width: 41.66%;
+@media (min-width:768px) {
+    .col-md-3 {
+        width: 25%;
         padding-left: 12px;
         padding-right: 12px;
     }
 }
 
 @media (min-width:768px) {
-    .col-md-7 {
-        width: 58.33%;
+    .col-md-8 {
+        width: 66.66%;
         padding-left: 12px;
         padding-right: 12px;
     }
